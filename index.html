@@ -3,9 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Nisha Adhikari">
+    <meta name="description" content="Nisha Adhikari's Digital Resume">
+    <title>Nisha Adhikari - Resume</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2a3d66;
+            font-size: 2em;
+            margin-bottom: 0;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .header-info {
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+        .section-title {
+            font-size: 1.2em;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .section-content {
+            margin-left: 20px;
+        }
+
+        .skills-list, .projects-list, .experience-list, .education-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .experience-item, .education-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 0.6; 
+        }
+
+        .skills-list li, .projects-list li, .experience-list li, .education-list li {
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1> Hello World </h1>
+    <div class="container">
+        <header>
+            <h1>Nisha Adhikari</h1>
+            <div class="header-info">
+                <p>na731@msstate.edu | 662-338-6928 | Starkville, MS | <a href="https://www.linkedin.com/in/nisha-adhikari-na" target="_blank"><i>Linkedin</i></a></p>
+            </div>
+        </header>
+
+        <section>
+            <h2 class="section-title">SUMMARY</h2>
+            <p>Motivated senior seeking opportunities to enhance skills and knowledge in hardware and software integration. Interested in expanding and gaining experience with FPGA system design and testing.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">EDUCATION</h2>
+            <ul class="education-list">
+                <li class="education-item">
+                    <span><strong>Mississippi State University</strong></span>
+                    <span><strong>Dec, 2025</strong></span>
+                </li>
+                <li class="education-item">
+                    <span><i>B.S., Computer Engineering, Mathematics Minor</i></span>
+                    <span>Starkville, MS</span>
+                </li>
+                <li>
+                    <p>
+                        • 4.0 GPA, President’s List <br>
+                        • Society of Women Engineers, Women in Electrical and Computer Engineering <br>
+                        • Diversity Delegate for Bagley College of Engineering (Fall 2023/Spring 2024) <br>
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">WORK EXPERIENCE</h2>
+            <ul class="experience-list">
+                <li class="experience-item">
+                    <span><strong>Electrical and Computer Engineering (ECE) Mentor</strong></span>
+                    <span><strong>Aug. 2023 - Present</strong></span>
+                </li>
+                <li class="experience-item">
+                    <span><i>Mississippi State University</i></span>
+                    <span>Starkville, MS</span>
+                </li>
+                <li>
+                    <p>
+                        • Provide leadership and instruction for the ECE 1013/ECE 1022 (Foundations in Engineering) lab sections with 15-20 students each lab on a weekly basis.<br>
+                        • Participate in interactive teaching and provide in-lab support including debugging/troubleshooting hardware and code issues for Arduino and soldering labs.<br>
+                        • Provide guidance and support for individual student group projects for ECE 1022 labs with 4-5 student projects in each lab.<br>
+                        • Assist with grading assignments and hold weekly office hours to provide support to students. <br><br>
+                    </p>
+                </li>
+
+                <li class="experience-item">
+                    <span><strong>Process Controls Co-op</strong></span>
+                    <span><strong>Jun. 2024 - Dec 2024</strong></span>
+                </li>
+                <li class="experience-item">
+                    <span><i>International Paper</i></span>
+                    <span>Columbus, MS</span>
+                </li>
+                <li>
+                    <p>
+                        • Programmed, configured, and troubleshooted the distributed control system DeltaV using tools like DeltaV Explore, Control Studio and Graphics Studio.<br>
+                        • Assisted in designing and configuring PID loops, alarm management systems, and interlocks within the DeltaV environment to enhance process control.<br>
+                        • Participated in commissioning and startup activities for new process control implementation with PLC (replacing old SLC150s with Allen Bradley I/O).<br>
+                        • Calibrated and validated instruments and sensors within the control system.<br>
+                        • Created graphics for operators on the DeltaV System for easy control and monitoring of various processes.<br><br>
+                        
+                    </p>
+                </li>
+
+                <li class="experience-item">
+                    <span><strong>Student Researcher</strong></span>
+                    <span><strong>May 2023 - May 2024</strong></span>
+                </li>
+                <li class="experience-item">
+                    <span><i>Mississippi State University</i></span>
+                    <span>Starkville, MS</span>
+                </li>
+                <li>
+                    <p>
+                        Undergraduate Student Researcher for the Open Artificial Intelligence Cellular (OAIC) Project. This project aims to develop 6G applications by integrating 4G/5G components and Machine Learning.<br>
+                        • Assist in xApp development (C++/Python) and project/software installation and troubleshooting.<br>
+                        • Conduct experiments and testing of xApps using SDRs/USRPs and virtual simulations using ZeroMQ tool.<br>
+                        • Conduct experiments, collect, and analyze data using Python tools like NumPy to present findings in discussions and meetings.<br>
+                        • Create technical documentation for experiments and project installation and update regularly on GitHub.<br><br>
+                        
+                    </p>
+                </li>
+
+                <li class="experience-item">
+                    <span><strong>Math Tutor/Proctor</strong></span>
+                    <span><strong>Aug. 2022 - Present</strong></span>
+                </li>
+                <li class="experience-item">
+                    <span><i>Mississippi State University</i></span>
+                    <span>Starkville, MS</span>
+                </li>
+                <li>
+                    <p>
+                        • Tutoring and proctoring large groups of students students in the Department of Mathematics and Statistics for college-level math classes including Business Calculus, College Algebra, Intermediate Algebra, and Intro to Statistics.<br>                    
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">PROJECTS</h2>
+            <ul class="projects-list">
+                <li>
+                    <strong>SUN-4-ALL:</strong> An Arduino-based automatic blind opener. Integrated a light sensor to monitor brightness levels 
+                    and programmed the system to trigger a motor when light levels exceed a user-set threshold within specified time parameters, facilitating automated opening and closing of blinds.
+                </li>
+                <li>
+                    <strong>Sneak-Peek:</strong> An e-commerce website application designed using HTML, CSS, and JavaScript for front-end design, 
+                    and python Django with SQLite DB for back-end/server-side design. The core design of project identifies three user classes, Buyer, Seller, and Admin with different privileges and functionalities for each class.
+                    <a href="https://github.com/nishaadh/Sneak-Peek" target="_blank"><i>Github Repository</i></a><br>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">SKILLS</h2>
+            <ul class="skills-list">
+                <li>Python, C/C++, Linux, Arduino, GitHub,
+                Software Development (C++) & Troubleshooting,
+                Technical Documentation, MS Office, MATLAB, Tinker CAD,
+                Soldering, Website Management</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">ACADEMIC EXPERIENCE</h2>
+            <p><strong>Relevant Coursework:</strong> Digital Devices and Logic Design, Electronics, Microprocessors, Circuits I&II, Programming (C++/python),
+                Engineering Statistics I, Data Structures, Algorithm Analysis, Calculus I - IV, Differential Equations </p>
+
+            <p><strong>Publications:</strong></p>
+            <p>
+                • Moore, Joshua, Adhikari, Nisha, Abdalla, Aly S., and Marojevic, Vuk. "Toward Secure and Efficient O-RAN Deployments: Secure Slicing xApp Use Case." IEEE Future Networks World Forum (FNWF). 
+                <a href="https://par.nsf.gov/biblio/10479582" target="_blank"><i>Link to Paper</i></a><br>
+                • A.S. Abdalla, J. Moore, N. Adhikari, V. Marojevic, "ZTRAN: Prototyping Zero Trust Security xApps for Open Radio Access Network Deployments," IEEE Wireless Commun., pp. 1-8, Accepted.
+                </p>
+        </section>
+    </div>
 </body>
 </html>
+
