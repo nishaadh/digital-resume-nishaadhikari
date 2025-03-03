@@ -1,3 +1,1 @@
-This is a test README.md file
-
-This repo is created to have a digital resume for Nisha Adhikari.
+This repository is a digital resume resource for me, Nisha Adhikari. I am a senior computer enngineering student at Mississippi State University. I have experience with various coding languages like Python, C/C++ and assembly and verilog. I also have experience with linux based OS like Ubuntu. I am interested in FPGA design and testing and looking towards opportunities in those fields. I am involved in different clubs and organizations in school and like to make social connections when I can. My hobbies include keeping indoor plants and watching anime.   
